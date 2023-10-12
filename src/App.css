@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 480px) {
+
+.menu {
+  display: block; /* Display the hamburger icon on mobile */
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 10px;
+  background: #fdfcfc; 
+  margin: 5px auto;
+  transition: 0.4s;
+}
+
+/* Styles when the menu is open */
+.menu.open .line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu.open .line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+}
