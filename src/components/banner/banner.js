@@ -15,7 +15,7 @@ const Banner = () => {
       }); 
   return (
     <section id='home' className='w-full py-20   pb-20 flex items-center  border-b-[1px] border-b-black'>
-        <div className='w-1/2 flex flex-col gap-20'>
+        <div className='w-10/12 flex flex-col gap-20'>
             <div className='flex flex-col gap-5'>
                 <h1 className='text-6xl font-bold text-white'>Hi, I'm {" "}
                     <span className='text-designColor capitalize'>Nagendra babu</span>
